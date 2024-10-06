@@ -8,7 +8,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Load dataset 
-all_df = pd.read_csv('main_data.csv')  
+all_df = pd.read_csv('dashboard/main_data.csv')  
 
 # Title
 st.title("Proyek Akhir Belajar Analisis Data dengan Python")
